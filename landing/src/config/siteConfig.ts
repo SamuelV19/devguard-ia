@@ -55,7 +55,7 @@ export const siteConfig: SiteConfig = {
     title: 'Infografía Técnica de DevGuard AI',
     description:
       'Visualización integral de la arquitectura de la Skill, los vectores de análisis de seguridad, la pirámide de pruebas y el flujo Human-in-the-Loop.',
-    imagePath: '/assets/infografia-devguard.png',
+    imagePath: `${import.meta.env.BASE_URL}assets/infografia-devguard.png`,
     isReady: true,
   },
 
@@ -64,7 +64,7 @@ export const siteConfig: SiteConfig = {
     title: 'Demostración Práctica de DevGuard AI',
     description:
       'Demostración audiovisual de DevGuard AI, su enfoque de análisis de código, identificación de riesgos y generación de informes técnicos con validación humana.',
-    videoPath: '/assets/video-demo.mp4',
+    videoPath: `${import.meta.env.BASE_URL}assets/video-demo.mp4`,
     isExternalUrl: false,
     isReady: true,
   },
